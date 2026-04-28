@@ -1,0 +1,17 @@
+id: startup_foundations
+title: Startup Foundations
+description: Learn startup basics through video, quizzes, and reflections.
+version: 0.1
+
+chapters:
+  - id: chapter1
+    title: Founder Sales
+    description: Why founders must talk to customers early.
+    path: chapter1/README.md
+
+  - id: chapter2
+    title: Startup Terms
+    description: Key startup vocabulary and concepts.
+    path: chapter2/README.md
+    unlock_after:
+      - chapter1
